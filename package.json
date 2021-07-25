@@ -1,0 +1,28 @@
+{
+  "name": "bdwnav-rpc",
+  "version": "1.0.0",
+  "description": "A rpc for me.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BDWNAV/bdwnav-rpc.git"
+  },
+  "keywords": [
+    "rpc",
+    "discord-rpc"
+  ],
+  "author": "bdwnav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BDWNAV/bdwnav-rpc/issues"
+  },
+  "homepage": "https://github.com/BDWNAV/bdwnav-rpc#readme",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "pm2": "^5.1.0"
+  }
+}
